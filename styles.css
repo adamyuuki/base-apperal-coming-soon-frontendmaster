@@ -1,0 +1,169 @@
+:root {
+  --Dark-Grayish-Red: hsl(0, 6%, 24%);
+  --Grayish-Blue: hsl(240, 18%, 77%);
+  --Desaturated-Red: hsl(0, 36%, 70%);
+  --Soft-Red: hsl(0, 93%, 68%);
+}
+
+html {
+  font-family: 'Josefin Sans', sans-serif;
+  /* margin: 0;
+  padding: 0; */
+}
+
+body{
+  margin: 0;
+padding: 0;
+}
+
+/* header{
+  margin: 0;
+  padding: 0;
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 576px) {
+
+  body{
+      background-color: hsl(0, 100%, 98%);
+  }
+
+
+
+.logo-header{
+  /* width: 100%; */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 0;
+  padding-left: 20px;
+
+}
+
+.logo-header img{
+  width: auto;
+  height: 25px;
+}
+
+.container{
+  width: 420px;
+  margin: auto;
+}
+
+.person-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+}
+
+.title{
+  /* display: flex;
+  justify-content: center; */
+  color: var(--Desaturated-Red);
+  font-weight: 300;
+  font-size: 55px;
+  text-align: center;
+  margin: 0 40px;
+  letter-spacing: 8px;
+  padding-top: 70px;
+}
+
+.title-bold{
+  color: hsl(0, 6%, 24%);
+  font-weight: 600;
+  letter-spacing: 12px;
+}
+
+.content{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--Desaturated-Red);
+  line-height: 30px;
+}
+
+.back-color{
+  background-color: hsl(0, 100%, 98%);
+  height: 100%;
+}
+
+
+
+.flex-form {
+  /* display: -webkit-box; */
+  display: flex;
+  z-index: 10;
+  position: relative;
+  width: 100%;
+  border: 2px solid var(--Desaturated-Red);
+  border-radius: 35px;
+  margin-top: 55px;
+  /* box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3); */
+}
+
+.flex-form > * {
+  border: 0;
+  padding: 0 10px 0 10px;
+  background: hsl(0, 100%, 98%);
+  line-height: 60px;
+  font-size: 1rem;
+  border-radius: 30px;
+
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+input[type="email"] {
+  flex-basis: 500px;
+  padding-left: 25px;
+  color: var(--Desaturated-Red);
+  /* border-radius: 50px; */
+}
+
+input[type="submit"] {
+  flex-basis: 100px;
+  background: linear-gradient(to right, hsl(0, 80%, 86%) , hsl(0, 74%, 74%));
+  font-size: 40px;
+  color: white;
+
+  /* border-radius: 50px; */
+}
+
+.flex-form input[type="submit"]:hover {
+  /* background: #d73851; */
+  /* border: 1px solid #d73851; */
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  /* position: absolute;
+  bottom: 0; */
+  /* width: 100%;
+  height: 30px;
+  text-align: center; */
+}
+
+.email-error{
+  color: red;
+  padding-left: 20px;
+  margin: 10px 0;
+  display: none;
+
+}
+
+}
