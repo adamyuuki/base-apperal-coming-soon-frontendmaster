@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
 </head>
 
@@ -42,7 +43,10 @@
       <div class="container">
         <form class="flex-form">
           <input type="email" value="Email Address" id="email">
-          <input type="submit" value=">" id="submit">
+          <button type="submit" class="submit" id="submit"><img src="./images/icon-arrow.svg" alt=""></button>
+          <!-- <input type="submit" value=">" id="submit">
+          <input type="email" name="input-email" id="input-email" placeholder="Email Address" autocomplete="off">
+          <button type="submit" aria-label="undefined" class="btn-submit"><img src="./images/icon-arrow.svg" alt=""></button> -->
         </form>
         <p class="email-error" id="error">Please Provide a Valid Email!</p>
       </div>
